@@ -1,0 +1,23 @@
+#!sjs
+// vim: syntax=sjs:
+// XXX requires ./dist symlink to ../conductance/tools/package-deps/dist
+@ = require(['sjs:std', 'sjs:nodejs/rimraf']);
+@childProcess.run('gup', ['--always'], {'stdio':'inherit'});
+var versions = @fs.readdir('deps') .. @map(parseInt);
+var latest = Math.max.apply(null, versions) + 1;
+
+var dest = @path.join("deps", latest);
+
+if (@fs.exists(dest)) {
+	@rimraf(dest);
+}
+
+@fs.mkdir(dest);
+
+var base = @path.join("deps", String(latest));
+@fs.readdir(base) .. @each {|archive|
+	var path = @path.join(base, archive);
+	@childProcess.run('tar', ['zxf', path, '-C', dest, 'zeroinstall-selections'], {stdio:'inherit'});
+	@fs.rename(@path.join(dest, 'zeroinstall-selections'), @path.join(dest, @path.basename(archive, '.tgz')));
+}
+

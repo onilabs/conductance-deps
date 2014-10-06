@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/nodemon.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <selection id="sha1new=a05f72d5521176d1b5e51a4408df8eb08cf6f47c" interface="http://gfxmonk.github.io/0downstream/feeds/npm/ansi-styles.xml" version="1.0.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="3b8f6ab7fdedf4aebb55825fff0965d56d18ff930271a8b7c290c8bbd511325f"/>
+  </selection>
+  <selection id="sha1new=8883e197d6cf78e209bfabb9a53578127f9ae2b6" interface="http://gfxmonk.github.io/0downstream/feeds/npm/argparse.xml" version="0.1.15">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/underscore.string.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/underscore.xml">
+		</requires>
+    <manifest-digest sha256="bd54b3c33d11aa66a23b028846d2c3b0a7e2417943bbc83662099aa6c069dfc4"/>
+  </selection>
+  <selection id="sha1new=cdd1d8a968770bc845dae8d100967c591e96b376" interface="http://gfxmonk.github.io/0downstream/feeds/npm/asn1.xml" version="0.1.11">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="30aa0bb875b7bb09ae234b164641fdcb517867ce65778e3e017125ec58498339"/>
+  </selection>
+  <selection id="sha1new=4f8432fbad9e361b402b2a3c84d9de22d10ed83c" interface="http://gfxmonk.github.io/0downstream/feeds/npm/assert-plus.xml" version="0.1.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="6902298e2ce7217d47f35a90689c8a6e21082b0c50782c0e610eb812ffdec343"/>
+  </selection>
+  <selection id="sha1new=46dad1ee60a3b5300b01a17b3395ca59f82740dc" interface="http://gfxmonk.github.io/0downstream/feeds/npm/async.xml" version="0.2.10">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="f0d1bc70336a26aac29e17b8f3133f2dcfad640bf19265c63488ea89294ca98e"/>
+  </selection>
+  <selection id="sha1new=205a374b963346123458eb9c128cc1bc27031c88" interface="http://gfxmonk.github.io/0downstream/feeds/npm/aws-sign.xml" version="0.3.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="04f7f5e652dae13c7b4be97fc67cca4914f77386e919797239425a0227141266"/>
+  </selection>
+  <selection id="sha1new=60b8dca4935bdeb2e47ee6e8f5afe1cd297d42a6" interface="http://gfxmonk.github.io/0downstream/feeds/npm/boom.xml" version="0.4.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/hoek.xml">
+		</requires>
+    <manifest-digest sha256="75bec0d3cdd9daf0d5bb72f97fef8cfa89d1ec6a582076aa316102766d30612e"/>
+  </selection>
+  <selection id="sha1new=754ab5cc8a5736620826e9f5bfb52e7e81be361d" interface="http://gfxmonk.github.io/0downstream/feeds/npm/chalk.xml" version="0.4.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/strip-ansi.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/has-color.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/ansi-styles.xml">
+		</requires>
+    <manifest-digest sha256="e47da705a634e30412714d41d6d8053a5135197f05f082954343868fa619a0ab"/>
+  </selection>
+  <selection id="sha1new=e16020c07140df35b28a37c1f954e23442af496e" interface="http://gfxmonk.github.io/0downstream/feeds/npm/combined-stream.xml" version="0.0.4">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/delayed-stream.xml">
+		</requires>
+    <manifest-digest sha256="db0ccf55fe50b7655cfcdd7b17f53ab901a2d1f264af3feb60fc52077fae179f"/>
+  </selection>
+  <selection id="sha1new=411cf532219f6945756b24e198a1a98c0d353368" interface="http://gfxmonk.github.io/0downstream/feeds/npm/configstore.xml" version="0.2.3">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/object-assign.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/uuid.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/osenv.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/graceful-fs.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/mkdirp.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/js-yaml.xml">
+		</requires>
+    <manifest-digest sha256="ca312178570d068233233fc4a823781d059d81ddb540b725ed160548c0bd5cce"/>
+  </selection>
+  <selection id="sha1new=1e999fa91a0835f0e58f8ff6b30437f193fed7d3" interface="http://gfxmonk.github.io/0downstream/feeds/npm/cookie-jar.xml" version="0.3.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="42565f869ad79af66e625b72abe95f24b1be7ebd5c8ce6feb1bf52a18ead0707"/>
+  </selection>
+  <selection id="sha1new=4385f4c2d57b896b0f2fbb03378c074d92978b2f" interface="http://gfxmonk.github.io/0downstream/feeds/npm/cryptiles.xml" version="0.2.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/boom.xml">
+		</requires>
+    <manifest-digest sha256="546545e9014ac4fb6488bfa1a8b663628678b27686d707d12db90bf9fcd7d7d6"/>
+  </selection>
+  <selection id="sha1new=be4db65ec98033086907179cf50514295d83d179" interface="http://gfxmonk.github.io/0downstream/feeds/npm/ctype.xml" version="0.5.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="18c79b9604dc965d645ba3a9d619adfd026d7236164b80452a31404b9b5156db"/>
+  </selection>
+  <selection id="sha1new=961383b87967f4737a2e97164b3dbe47c19557c4" interface="http://gfxmonk.github.io/0downstream/feeds/npm/delayed-stream.xml" version="0.0.5">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="b007cdfe7badcb9021df26bc19ad0594d8fa97eadb654517f2bcb51b37054393"/>
+  </selection>
+  <selection id="sha1new=2340cceb56e16361ce0f5566bfb56921f5b21b8d" interface="http://gfxmonk.github.io/0downstream/feeds/npm/esprima.xml" version="1.0.4">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="176ffb4caddfc77643a53024ec4334acce500e2866cfc86385f367c6ce346c29"/>
+  </selection>
+  <selection id="sha1new=efb226360b4cea2a7524664b1a057f13ef7cd9dd" interface="http://gfxmonk.github.io/0downstream/feeds/npm/event-stream.xml" version="0.5.3">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/optimist.xml">
+		</requires>
+    <manifest-digest sha256="cda3ee07c91f129f3144076f24c71a2a5ee6dbad8bc7abd43bca6c5473380656"/>
+  </selection>
+  <selection id="sha1new=b6bf6c6413059d8b9bd52b5bf579f87ee1cda6ef" interface="http://gfxmonk.github.io/0downstream/feeds/npm/forever-agent.xml" version="0.5.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="85dfbc0e7e47f9494db5ac3a5aeb1b3cb00c23395de45280d088efa38b2867b4"/>
+  </selection>
+  <selection id="sha1new=c5f6ef9df9456d47ac0a7781a50be778db2f639f" interface="http://gfxmonk.github.io/0downstream/feeds/npm/form-data.xml" version="0.1.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/async.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/mime.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/combined-stream.xml">
+		</requires>
+    <manifest-digest sha256="e10f17f999f730c1f7a1cf5f77c4bcc27ed63653e9dd5bb3e04f75f98cdd2ad0"/>
+  </selection>
+  <selection id="sha1new=4de59c1827fc67155bd189e4427e284cb7dd6b7f" interface="http://gfxmonk.github.io/0downstream/feeds/npm/graceful-fs.xml" version="2.0.3">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="6740dd163b80710b6b62fc200622b329499c1776ad9d637eddcc219d29c1ecb5"/>
+  </selection>
+  <selection id="sha1new=c8c78ad44d779a53d5be6f5b0e88c9d3e9a0efd6" interface="http://gfxmonk.github.io/0downstream/feeds/npm/has-color.xml" version="0.1.7">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="6f2936ea8d2d5c43c1d5450478f4cd76a8efd940590c03fb1368371a5c4aa974"/>
+  </selection>
+  <selection id="sha1new=7e3cb469425eb13fc60c65c65fc64f40b93dade8" interface="http://gfxmonk.github.io/0downstream/feeds/npm/hawk.xml" version="1.0.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/sntp.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/boom.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/cryptiles.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/hoek.xml">
+		</requires>
+    <manifest-digest sha256="893659f1ee6b46c277b65ea92b2fa7007c89df5054e22b84f05fad23fd643b64"/>
+  </selection>
+  <selection id="sha1new=3c7c7edc9dd5b5c9639697bdbca43174cd3e2e5d" interface="http://gfxmonk.github.io/0downstream/feeds/npm/hoek.xml" version="0.9.1">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="1b56a6d351b050ed53a2ac1d9434d8a388143c9eb1d41b87a1900bb6b94b637b"/>
+  </selection>
+  <selection id="sha1new=ff95c3c70524f8bce67941b39316e41a6dca5d83" interface="http://gfxmonk.github.io/0downstream/feeds/npm/http-signature.xml" version="0.10.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/assert-plus.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/ctype.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/asn1.xml">
+		</requires>
+    <manifest-digest sha256="d1fac2bf33e12c20dd17d6ac40f8a92d4c6203a7879ff0255a8eb47f5e5127d2"/>
+  </selection>
+  <selection id="sha1new=ab2b909bda68ece48bb2de90edf17969f1e32328" interface="http://gfxmonk.github.io/0downstream/feeds/npm/js-yaml.xml" version="3.0.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/argparse.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/esprima.xml">
+		</requires>
+    <manifest-digest sha256="af1ac7065c36dcfe806d58f6831d72b155f90c34696091bb0b8003e42d7428d9"/>
+  </selection>
+  <selection id="sha1new=85e330e29e0d74425d940c980ba3c15a10332365" interface="http://gfxmonk.github.io/0downstream/feeds/npm/json-stringify-safe.xml" version="5.0.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="c9c9d3d821f4f36af0ffa53caf04c0db05cc583dbb330515eed1b9c86df1e7d9"/>
+  </selection>
+  <selection id="sha1new=821113c342a2e271ae76447d1de0ff1fde35e4af" interface="http://gfxmonk.github.io/0downstream/feeds/npm/lru-cache.xml" version="2.5.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="b6da11aa288af466f88756b3392ea5478c65efa1ec9c677e43f543d463161e6d"/>
+  </selection>
+  <selection id="sha1new=2c59094562720ae0b3618e4e817bc8050ab5ce26" interface="http://gfxmonk.github.io/0downstream/feeds/npm/mime.xml" version="1.2.11">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="abb0bc022d4884f96670616f02223322b76eec57dec9af0a26f6632270d2968b"/>
+  </selection>
+  <selection id="sha1new=c2b636beca3fcd33b99719e164b431680a520fab" interface="http://gfxmonk.github.io/0downstream/feeds/npm/minimatch.xml" version="0.2.14">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/sigmund.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/lru-cache.xml">
+		</requires>
+    <manifest-digest sha256="4528eefb5d31195bf855ae0b2fcdbdec73529254f62159ba3eee4a72d434c797"/>
+  </selection>
+  <selection id="sha1new=f77d4900ee8fc6c9d3d7175203b626da7800b8d2" interface="http://gfxmonk.github.io/0downstream/feeds/npm/mkdirp.xml" version="0.3.5">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="397062a961e238f912b7422942413b0f43e836b17bdd3fdce85a90b533c3d1ae"/>
+  </selection>
+  <selection id="sha1new=b3a2857ae405139b3bfe34af5f515a25cd496914" interface="http://gfxmonk.github.io/0downstream/feeds/npm/node-uuid.xml" version="1.4.1">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="84eff065fb98ec6877c18a12a8a64d22dfadf1cb1f40670c30c0d9ac0faa9411"/>
+  </selection>
+  <selection id="sha1new=20d6783095ed7f6ac04434eba6876798f467f2bc" interface="http://gfxmonk.github.io/0downstream/feeds/npm/nodemon.xml" version="1.0.20">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/minimatch.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/ps-tree.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/update-notifier.xml">
+		</requires>
+    <manifest-digest sha256="ddddc8127ff02376ba6d7be8a5a170c9fd73f18e92ea52df8761796a794085af"/>
+  </selection>
+  <selection id="sha1new=f9dd49b8b827631964584e038047aa48e02a1193" interface="http://gfxmonk.github.io/0downstream/feeds/npm/oauth-sign.xml" version="0.3.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="ae0f1d546d474e4c92503fb264de04e88dfae27a214527369867db0cce419921"/>
+  </selection>
+  <selection id="sha1new=9eec6349b1c4120bb448bee01cff439ac4a57549" interface="http://gfxmonk.github.io/0downstream/feeds/npm/object-assign.xml" version="0.1.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="0d059e3f259c3ff5d2c13981ecbe57c59b9ed537c6c7792d31ec2549800ef5fa"/>
+  </selection>
+  <selection id="sha1new=852701c6e48c9dd1297a1190136cde5cb584b14c" interface="http://gfxmonk.github.io/0downstream/feeds/npm/optimist.xml" version="0.2.8">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/wordwrap.xml">
+		</requires>
+    <manifest-digest sha256="ec24d99ff729da062901421c5964f612f18dfb75984796d7c543767707d75eac"/>
+  </selection>
+  <selection id="sha1new=c882b1ad7ae9169b095c7bbdf61f2e49d883237d" interface="http://gfxmonk.github.io/0downstream/feeds/npm/osenv.xml" version="0.0.3">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="d3c74372760a8651efa9348da017e62538a67b856d1d95f831d79ea504687a14"/>
+  </selection>
+  <selection id="sha1new=cdf0763635c020cb7c3cfbbff784578d15427d25" interface="http://gfxmonk.github.io/0downstream/feeds/npm/ps-tree.xml" version="0.0.3">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/event-stream.xml">
+		</requires>
+    <manifest-digest sha256="8cad3bf504afd8d73fc5b4d49339c83dc8e5d054f97019978f66d1c9b510f0e4"/>
+  </selection>
+  <selection id="sha1new=845d5ac39ad306ef9182edfd31618f0db6d10bb5" interface="http://gfxmonk.github.io/0downstream/feeds/npm/qs.xml" version="0.6.6">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="1ea02cc524832b3298212130f9d16c3b7a55511bb0d4b4fc96dc27c515cffd17"/>
+  </selection>
+  <selection id="sha1new=31414f57a9ab48c9c5aed22d631b71f6412634e8" interface="http://gfxmonk.github.io/0downstream/feeds/npm/request.xml" version="2.27.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/qs.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/aws-sign.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/http-signature.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/cookie-jar.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/node-uuid.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/json-stringify-safe.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/tunnel-agent.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/form-data.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/oauth-sign.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/mime.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/hawk.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/forever-agent.xml">
+		</requires>
+    <manifest-digest sha256="a57ca099c7fe2ec8cb014f63afb23452e724cd1cf5dc87159d9ea37d899cf123"/>
+  </selection>
+  <selection id="sha1new=f247aae985a5c93fed086c8e9913bd075c07bd47" interface="http://gfxmonk.github.io/0downstream/feeds/npm/semver.xml" version="2.1.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="4b34fed675ed476a84f7244bba7b90142f9f1a8de59b1309af3987e4670bd65f"/>
+  </selection>
+  <selection id="sha1new=9374e7ff895a399de9fe94ac57c63ad428dc75e8" interface="http://gfxmonk.github.io/0downstream/feeds/npm/sigmund.xml" version="1.0.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="d58fe3c0be469ed5f0b9521b09ad73cb55fe40848aa9c568828f873952da94b6"/>
+  </selection>
+  <selection id="sha1new=b43ef452acd0334f35ec452d69e0f910efc73643" interface="http://gfxmonk.github.io/0downstream/feeds/npm/sntp.xml" version="0.2.4">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/hoek.xml">
+		</requires>
+    <manifest-digest sha256="6e78cfbbd81b5c690d4db9442d8c381615235350c8308a3b85bd5f256d5b15b8"/>
+  </selection>
+  <selection id="sha1new=318e72969be7f4fb17aefc84823d5702230e27ce" interface="http://gfxmonk.github.io/0downstream/feeds/npm/strip-ansi.xml" version="0.1.1">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="660a49ad7923b3ea551b7a118cb74cedeb9a6db3383e87cf3a4ea856fac7ce83"/>
+  </selection>
+  <selection id="sha1new=36cc71dd1e4f77dea20964797a9b57b596057cde" interface="http://gfxmonk.github.io/0downstream/feeds/npm/tunnel-agent.xml" version="0.3.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="4f11e27050e3b8daea1580de2363c152672e1ff7759ab954187538422dafa696"/>
+  </selection>
+  <selection id="sha1new=94184127587c5c3afc2a11c9c1cdf2e56dce91d7" interface="http://gfxmonk.github.io/0downstream/feeds/npm/underscore.string.xml" version="2.3.3">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="a12f4799bc325b7e8323db7bbc4b44bceb6e469e1044210c7988b095644042bf"/>
+  </selection>
+  <selection id="sha1new=8704ff2620c60048bf76349cd71bf9924dda7725" interface="http://gfxmonk.github.io/0downstream/feeds/npm/underscore.xml" version="1.4.4">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="7f4b1148d24f1f4c57d3fb81dbd0047e808ccb39f24a04836484783e84463cf8"/>
+  </selection>
+  <selection id="sha1new=87633a54103fb5c14d7569381edab0587e243d38" interface="http://gfxmonk.github.io/0downstream/feeds/npm/update-notifier.xml" version="0.1.8">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/chalk.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/semver.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/request.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/configstore.xml">
+		</requires>
+    <manifest-digest sha256="4f4414ae297a54ef97d6c77d316cbba40d7503cd19b7b79bb45c170af396a8c7"/>
+  </selection>
+  <selection id="sha1new=bac5f809fd56900fc30863a3aee7722e239d1791" interface="http://gfxmonk.github.io/0downstream/feeds/npm/uuid.xml" version="1.4.1">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="354fbc84662038bdfeb38c3910285a3e742bea467b51ca89644fabe7344c7a9f"/>
+  </selection>
+  <selection id="sha1new=a5df2afaa93af3d3908d7977e8289f9c02810506" interface="http://gfxmonk.github.io/0downstream/feeds/npm/wordwrap.xml" version="0.0.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="d8836f011f7e678816da05eea19260d04b83b8e9207192ae9381b2076a656392"/>
+  </selection>
+</selections>

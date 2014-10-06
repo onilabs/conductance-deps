@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/protobuf.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <selection arch="Darwin-x86_64" from-feed="/Users/test/.local/share/0install.net/site-packages/http/gfxmonk.github.io/0downstream__feeds__npm__protobuf.xml/0.8.8-x86_64/0install/feed.xml" id=".." interface="http://gfxmonk.github.io/0downstream/feeds/npm/protobuf.xml" local-path="/Users/test/.local/share/0install.net/site-packages/http/gfxmonk.github.io/0downstream__feeds__npm__protobuf.xml/0.8.8-x86_64" released="2014-10-02" version="0.8.8">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+  </selection>
+  <selection from-feed="/private/var/folders/06/py8h976n4ldcm3q5jwfj0tpr0000gp/T/tmpFmTGjX/xdg/data_darwin/0install.net/native_feeds/http:##gfxmonk.net#dist#0install#node.js.xml" id="upstream" interface="http://gfxmonk.net/dist/0install/node.js.xml" version="0.10.32">
+    <manifest-digest sha256="dfe40cc9665104a4a5b8b37a8d9695e3df61d166ee4b1ad785ede43fb63fdcb7"/>
+  </selection>
+</selections>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/leveldown.xml" command="" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+	<selection arch="Windows-i386" version="0.10.2" released="2014-10-03" stability="testing" id="C:\Users\IEUser\AppData\Roaming\0install.net\site-packages\http\gfxmonk.github.io\0downstream__feeds__npm__leveldown.xml\0.10.2-i386\0install\.." local-path="C:\Users\IEUser\AppData\Roaming\0install.net\site-packages\http\gfxmonk.github.io\0downstream__feeds__npm__leveldown.xml\0.10.2-i386\0install\.." interface="http://gfxmonk.github.io/0downstream/feeds/npm/leveldown.xml" from-feed="C:\Users\IEUser\AppData\Roaming\0install.net\site-packages\http\gfxmonk.github.io\0downstream__feeds__npm__leveldown.xml\0.10.2-i386\0install\feed.xml">
+		<requires interface="http://gfxmonk.net/dist/0install/node.js.xml" />
+		<requires interface="http://gfxmonk.net/dist/0install/node.js.xml" version=".." />
+		<requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/bindings.xml" version="1.1.1..!1.2" />
+		<requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/nan.xml" version="0.6.0..!0.7" />
+		<environment name="NODE_PATH" insert="" />
+		<manifest-digest />
+	</selection>
+	<selection arch="Windows-i386" version="0.10.32" released="2014-10-03" stability="testing" id="sha1new=b0ff6126685f49e4daf66e37b1219e0ceddda651" interface="http://gfxmonk.net/dist/0install/node.js.xml" from-feed="http://gfxmonk.net/dist/0install/node.js.windows.xml">
+		<manifest-digest sha1new="b0ff6126685f49e4daf66e37b1219e0ceddda651" sha256new="ELXAZKIPRZMSZQUFW5UU26XOQZN4FVVDC3PKKJEQ47BCKGYYNYWQ" />
+	</selection>
+	<selection version="1.1.1" stability="testing" id="sha1new=66c8c0ada37912c3aa40ab067c58f8b9dbcec76c" interface="http://gfxmonk.github.io/0downstream/feeds/npm/bindings.xml">
+		<environment name="NODE_PATH" insert="" />
+		<manifest-digest sha1new="66c8c0ada37912c3aa40ab067c58f8b9dbcec76c" sha256="498df320b408e0b47530d946c7eedbf5944b1f9fce75c7e8930c5e250d962a43" />
+	</selection>
+	<selection version="0.6.0" stability="testing" id="sha1new=916b7bc62eceb8ce8c2acc08ce7a4886108f11e8" interface="http://gfxmonk.github.io/0downstream/feeds/npm/nan.xml">
+		<environment name="NODE_PATH" insert="" />
+		<manifest-digest sha1new="916b7bc62eceb8ce8c2acc08ce7a4886108f11e8" sha256="50c8f762053b375bb03f18dd72e8685859270f9d7aec8e53c84e7a6a775b6d3d" />
+	</selection>
+</selections>
+

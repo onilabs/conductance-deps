@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/agentkeepalive.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <selection id="sha1new=2ac57992dcf28833db39eb0632fb591ea889865f" interface="http://gfxmonk.github.io/0downstream/feeds/npm/agentkeepalive.xml" version="0.1.5">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <manifest-digest sha256="0e429325516a754aa461a243a49e61048e4e07797a679b98154a7894f560da78"/>
+  </selection>
+  <selection arch="Linux-x86_64" from-feed="/home/tim/.local/share/0install.net/site-packages/http/gfxmonk.net/dist__0install__node.js.xml/0.10.31-x86_64/0install/feed.xml" id=".." interface="http://gfxmonk.net/dist/0install/node.js.xml" local-path="/home/tim/.local/share/0install.net/site-packages/http/gfxmonk.net/dist__0install__node.js.xml/0.10.31-x86_64" released="2014-09-01" version="0.10.31">
+    <environment insert="bin" name="PATH"/>
+  </selection>
+</selections>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/tar.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <selection id="sha1new=8d970d3e8bce2e6545c5f2dfd8a44693a053e7c9" interface="http://gfxmonk.github.io/0downstream/feeds/npm/block-stream.xml" version="0.0.7">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/inherits.xml">
+		</requires>
+    <manifest-digest sha256="6bd3f5c7a04cd37f587443a3dd4e6ff19491bc6f91a9ab240d5ce708811e3307"/>
+  </selection>
+  <selection id="sha1new=dbcf4f243313316e5cbc45ce7a23043f822ca82d" interface="http://gfxmonk.github.io/0downstream/feeds/npm/fstream.xml" version="0.1.31">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/inherits.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/graceful-fs.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/mkdirp.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/rimraf.xml">
+		</requires>
+    <manifest-digest sha256="085b3b7773ee8cfe23f32ecc57af015968ee4d5e2e91aad0e64585c188d88ccb"/>
+  </selection>
+  <selection id="sha1new=f6f22ef023b9ad3d9f0d0071e0075e4a47e1e9b8" interface="http://gfxmonk.github.io/0downstream/feeds/npm/graceful-fs.xml" version="3.0.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <manifest-digest sha256="0aebb36159a350ab3bf6e69fd384ea601542d6edef94c3dc1f5dba851ff57d75"/>
+  </selection>
+  <selection id="sha1new=884e15f094f1e00f40ed44d425690de1e8024163" interface="http://gfxmonk.github.io/0downstream/feeds/npm/inherits.xml" version="2.0.1">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="87eca042f2e60972834906d0604b42bc17387e13bfb9f7504300bdffa023024f"/>
+  </selection>
+  <selection id="sha1new=613766592a3aba6337cf0a833f6e231303fa73a6" interface="http://gfxmonk.github.io/0downstream/feeds/npm/minimist.xml" version="0.0.8">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="b4a133f589b7cc236cb72e06ae98a563431f62fe23d6465540bb757fa2ce63c9"/>
+  </selection>
+  <selection id="sha1new=21f7a94f671e9b16e95d4bd8ed820cd2aad3b3e6" interface="http://gfxmonk.github.io/0downstream/feeds/npm/mkdirp.xml" version="0.5.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/minimist.xml">
+		</requires>
+    <manifest-digest sha256="f1d0dc67f14808a861c6860d96efbd6119b5770050fc3573370f4c1851074cf6"/>
+  </selection>
+  <selection id="sha1new=60a79faad3eaaeec664d77c2fc4b70e36686d176" interface="http://gfxmonk.github.io/0downstream/feeds/npm/rimraf.xml" version="2.2.6">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="bb1b3de2270c1853fc17394a332f84a7e9d17e384ef4b770833ec0e9d86f59d3"/>
+  </selection>
+  <selection id="sha1new=41dbfd637d8ef0099ff750c1bcbd4a613a8ace82" interface="http://gfxmonk.github.io/0downstream/feeds/npm/tar.xml" version="0.1.20">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/block-stream.xml"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/fstream.xml">
+		</requires>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/inherits.xml">
+		</requires>
+    <manifest-digest sha256="f8684c16f845e9c620f1c9d938583a23483b495333244ec4f5503a086f94326f"/>
+  </selection>
+  <selection arch="Linux-x86_64" from-feed="/home/tim/.local/share/0install.net/site-packages/http/gfxmonk.net/dist__0install__node.js.xml/0.10.31-x86_64/0install/feed.xml" id=".." interface="http://gfxmonk.net/dist/0install/node.js.xml" local-path="/home/tim/.local/share/0install.net/site-packages/http/gfxmonk.net/dist__0install__node.js.xml/0.10.31-x86_64" released="2014-09-01" version="0.10.31">
+    <environment insert="bin" name="PATH"/>
+  </selection>
+</selections>

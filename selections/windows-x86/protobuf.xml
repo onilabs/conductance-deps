@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/protobuf.xml" command="" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+	<selection arch="Windows-i386" version="0.8.8" released="2014-10-05" stability="testing" id="C:\Users\IEUser\AppData\Roaming\0install.net\site-packages\http\gfxmonk.github.io\0downstream__feeds__npm__protobuf.xml\0.8.8-i386\0install\.." local-path="C:\Users\IEUser\AppData\Roaming\0install.net\site-packages\http\gfxmonk.github.io\0downstream__feeds__npm__protobuf.xml\0.8.8-i386\0install\.." interface="http://gfxmonk.github.io/0downstream/feeds/npm/protobuf.xml" from-feed="C:\Users\IEUser\AppData\Roaming\0install.net\site-packages\http\gfxmonk.github.io\0downstream__feeds__npm__protobuf.xml\0.8.8-i386\0install\feed.xml">
+		<requires interface="http://gfxmonk.net/dist/0install/node.js.xml" />
+		<requires interface="http://gfxmonk.net/dist/0install/node.js.xml" version=".." />
+		<environment name="NODE_PATH" insert="" />
+		<manifest-digest />
+	</selection>
+	<selection arch="Windows-i386" version="0.10.32" released="2014-10-03" stability="testing" id="sha1new=b0ff6126685f49e4daf66e37b1219e0ceddda651" interface="http://gfxmonk.net/dist/0install/node.js.xml" from-feed="http://gfxmonk.net/dist/0install/node.js.windows.xml">
+		<manifest-digest sha1new="b0ff6126685f49e4daf66e37b1219e0ceddda651" sha256new="ELXAZKIPRZMSZQUFW5UU26XOQZN4FVVDC3PKKJEQ47BCKGYYNYWQ" />
+	</selection>
+</selections>
+

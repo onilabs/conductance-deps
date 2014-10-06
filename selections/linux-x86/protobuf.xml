@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/protobuf.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <selection arch="Linux-i486" from-feed="/home/sandbox/.local/share/0install.net/site-packages/http/gfxmonk.github.io/0downstream__feeds__npm__protobuf.xml/0.8.8-i686/0install/feed.xml" id=".." interface="http://gfxmonk.github.io/0downstream/feeds/npm/protobuf.xml" local-path="/home/sandbox/.local/share/0install.net/site-packages/http/gfxmonk.github.io/0downstream__feeds__npm__protobuf.xml/0.8.8-i686" released="2014-10-06" version="0.8.8">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+  </selection>
+  <selection arch="Linux-i486" from-feed="/home/sandbox/.local/share/0install.net/site-packages/http/gfxmonk.net/dist__0install__node.js.xml/0.10.32-i686/0install/feed.xml" id=".." interface="http://gfxmonk.net/dist/0install/node.js.xml" local-path="/home/sandbox/.local/share/0install.net/site-packages/http/gfxmonk.net/dist__0install__node.js.xml/0.10.32-i686" released="2014-10-06" version="0.10.32">
+    <environment insert="bin" name="PATH"/>
+  </selection>
+</selections>

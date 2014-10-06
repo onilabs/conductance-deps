@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selections interface="http://gfxmonk.github.io/0downstream/feeds/npm/leveldown.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <selection id="sha1new=66c8c0ada37912c3aa40ab067c58f8b9dbcec76c" interface="http://gfxmonk.github.io/0downstream/feeds/npm/bindings.xml" version="1.1.1">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="498df320b408e0b47530d946c7eedbf5944b1f9fce75c7e8930c5e250d962a43"/>
+  </selection>
+  <selection arch="Darwin-x86_64" from-feed="/Users/test/.local/share/0install.net/site-packages/http/gfxmonk.github.io/0downstream__feeds__npm__leveldown.xml/0.10.2-x86_64/0install/feed.xml" id=".." interface="http://gfxmonk.github.io/0downstream/feeds/npm/leveldown.xml" local-path="/Users/test/.local/share/0install.net/site-packages/http/gfxmonk.github.io/0downstream__feeds__npm__leveldown.xml/0.10.2-x86_64" released="2014-10-02" version="0.10.2">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <requires interface="http://gfxmonk.net/dist/0install/node.js.xml"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/bindings.xml"/>
+    <requires interface="http://gfxmonk.github.io/0downstream/feeds/npm/nan.xml"/>
+  </selection>
+  <selection id="sha1new=916b7bc62eceb8ce8c2acc08ce7a4886108f11e8" interface="http://gfxmonk.github.io/0downstream/feeds/npm/nan.xml" version="0.6.0">
+    <environment insert="" mode="prepend" name="NODE_PATH"/>
+    <manifest-digest sha256="50c8f762053b375bb03f18dd72e8685859270f9d7aec8e53c84e7a6a775b6d3d"/>
+  </selection>
+  <selection from-feed="/private/var/folders/06/py8h976n4ldcm3q5jwfj0tpr0000gp/T/tmpFmTGjX/xdg/data_darwin/0install.net/native_feeds/http:##gfxmonk.net#dist#0install#node.js.xml" id="upstream" interface="http://gfxmonk.net/dist/0install/node.js.xml" version="0.10.32">
+    <manifest-digest sha256="dfe40cc9665104a4a5b8b37a8d9695e3df61d166ee4b1ad785ede43fb63fdcb7"/>
+  </selection>
+</selections>
